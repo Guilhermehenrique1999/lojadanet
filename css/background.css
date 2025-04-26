@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+.header {
+  background: linear-gradient(to right, #e91e63, #f06292);
+  padding: 30px 20px 20px;
+  color: white;
+  text-align: center;
+}
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+.header p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.search-container {
+  margin: 20px;
+  text-align: center;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.banner {
+  background: url("https://via.placeholder.com/1200x400?text=Promo%C3%A7%C3%B5es+da+Semana")
+    center/cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #ffcc00;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.section {
+  padding: 2rem;
+  text-align: center;
+}
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.produto {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.produto img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.produto a {
+  display: inline-block;
+  margin-top: 1rem;
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
